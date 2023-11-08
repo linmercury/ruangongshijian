@@ -1,0 +1,33 @@
+{
+    "pages":[
+      "pages/index/index",
+      "pages/home/home",
+      "pages/dice/dice"
+    ],
+    "window":{
+      "navigationBarBackgroundColor": "#333333",  
+      "navigationBarTextStyle":"white",
+      "navigationBarTitleText": "摇骰子",
+      "backgroundColor":"#ffffff",
+      "backgroundTextStyle":"light",
+      "enablePullDownRefresh":false
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "tabBar": {
+        "list": [{
+            "pagePath": "pages/index/index",
+            "text": "ceshi1"
+        },
+           {
+               "pagePath": "pages/home/home",
+        "text":"ceshi2"
+           } 
+
+        ]
+    },
+    "debug": true
+  }
+  

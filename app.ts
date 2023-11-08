@@ -1,0 +1,6 @@
+App({
+    globalData:{
+        i:'',
+        j:''
+    }
+})
